@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+
+# Build
+dist/
+build/
+.next/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Server specifically
+server/.env
+server/node_modules/
+
+# Client specifically
+client/node_modules/
+client/dist/
+client/.env
